@@ -1,0 +1,460 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    font-weight: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: blue;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: yellow;
+}
+.menu-line{
+    height: 3px;
+    width: 20px;
+background-color: blue;
+margin-bottom: 3px;
+}
+.menu{
+       cursor: pointer;
+       display: none;
+}
+ul{
+    margin-left: auto; 
+    padding-right: 100px;
+    font-size: larger;
+    padding-top: 10px;
+}
+.homepage{
+    background-image: url(./main.webp);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+    object-fit: cover; 
+}
+.pic{
+    background-size: cover;
+    background-image: url(./main.webp);
+    width: 100%; height: 872px;
+    background-repeat: no-repeat; 
+}
+.contants{
+    color: white;
+text-align: center;
+padding-top: 200px;
+}
+.contants h1{
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;  
+}
+.contants button{
+    background-color: #cd4b4bba;
+    font-size: xx-large;
+}
+/* .contants p{
+    font-size: x-large;
+    text-align: center;
+    padding-left: 338px;
+    padding-right: 337px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topic{
+    width: 100%;  
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.topic h1{
+    font-size: 50px;
+    line-height: 50%;
+}
+
+.moonplate{
+    height: 500px;
+    overflow: hidden;
+}
+.moonplate img{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+.moonplate  a{
+     font-size: 20px;
+     line-height: 25px;
+     text-align: left;
+     text-decoration: none;
+     color: black;
+     
+}
+.moonplate h3{
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 26px; 
+    font-weight: 700;
+}
+
+.silverset{
+    height: 500px;
+    overflow: hidden;
+}
+.silverset img{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+.silverset  a{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+.silverset h3{
+   padding-top: 10px;
+   font-size: 22px;
+   line-height: 26px; 
+   font-weight: 700;
+}
+.nordiccontainer{
+    height: 500px;
+    overflow: hidden;
+}
+.nordiccontainer img{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+.nordiccontainer  a{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+.nordiccontainer h3{
+   padding-top: 10px;
+   font-size: 22px;
+   line-height: 26px; 
+   font-weight: 700;
+}
+hr{
+    width: 100%;
+    
+}
+
+.newcollection {
+    width: 100%;
+    text-align:left; 
+    padding: 2rem; 
+    background-color: #bababa;
+}
+.newcollection a{
+    color: black;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.newcollection h1{
+    color: black;
+    font-size: 50px;
+    line-height: 60px;
+}
+.newcollection button{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(168, 94, 94);
+}
+
+
+.newcollection2{
+    width: 100%;
+}
+.newcollection2 img{
+    width: 100%;
+    height: 283px;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+.newcollection3{
+    width: 100%;
+}
+.newcollection3 img{
+    width: 100%;
+    height: 283px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    object-fit: cover;
+    
+}
+.newcollection4{
+    width: 100%;
+}
+.newcollection4 img{
+    width: 100%;
+    height: 565px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+
+
+.workshop{
+    width: 100%;
+    height: 100%;
+}
+.workshop img{
+     height: 600px;
+     margin-top: 100px;
+     width: 100%;
+     object-fit: cover;
+     padding-bottom: 100px;
+}
+.workshop1 {
+    width: 100%;
+    padding: 2rem;
+    text-align:left; 
+
+}
+.workshop1 a{
+    color: black;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+}
+.workshop1 h1{
+    color: black;
+    font-size: 50px;
+    line-height: 60px;
+}
+.workshop1 button{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(168, 94, 94);
+}
+.ouremployees{
+  background-color: #bababa;
+  padding: 5rem;
+}
+.employees{
+    text-align: center;  
+}
+.topic{
+    width: 100%;  
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.employees img{
+    height: 100px;
+    margin-top: 100px;
+    width: 25%;
+    object-fit: cover;
+}
+
+.employees h1{
+    font-size: x-large;
+    margin-top: 30px;
+}
+.employees p{
+    font-size: 17px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.page1 img{
+    height: 600px;
+    margin-top: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.page2 img{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+    object-fit: cover;
+}
+.page6{
+    padding: 5rem;
+}
+.page3 img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ourstory{
+    position: relative;
+    
+}
+.our{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    
+}
+.our img{
+    width: 100%;
+    height: 100%;
+    
+}
+.story{
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    color: white;
+    
+}
+.story h1{
+    font-size: 50px;
+     text-align: left;
+      font-weight: 700;
+}
+.story p{
+    font-size:large; 
+    text-align: left;
+}
+.footer{
+    background-color: black;
+
+}
+.box{
+    display: grid;
+    padding: 5px;
+}
+.footer a{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+.box1 svg{
+    color: white;
+    margin-left: 25px;
+}
+.box1{
+    padding: 5px;
+
+}
+.box1:hover{
+      color: greenyellow;
+
+}
+
+
+
+
+
+
+@media  ( min-width:640px){
+    .workshop1{
+        padding-top: 220px;
+        padding-left: 130px;
+    }
+    .newcollection {
+            padding-top: 135px;  
+        } 
+        .story{
+            padding: 400px 940px 0px 200px;
+        }
+        .contants p{
+            font-size: x-large;
+            text-align: center;
+            padding-left: 338px;
+            padding-right: 337px;
+        }
+        .our img{
+            width: 100%;
+            height: 100%;
+            margin-top: 0px;
+    margin-left: -373px;
+    width: 1892px;
+    height: 1422px;
+        }
+    }
+
+
+ @media ( max-width:640px){
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0px;
+        display: none;
+    }
+    .logo{
+        align-self: flex-start;
+        
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 2px;
+        top: 25px;
+    }
+    
+
+        .page3 img{
+            padding-bottom: 20px;
+        }
+        .story h1{
+            text-align: center;
+            padding-top: 1rem;
+        }
+        .story p{
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-align: center;
+        }
+       .footer a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .box1{
+        padding: 5px;
+        text-align: center;
+    }
+    }
