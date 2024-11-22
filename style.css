@@ -66,24 +66,6 @@ padding-top: 200px;
     background-color: #cd4b4bba;
     font-size: xx-large;
 }
-/* .contants p{
-    font-size: x-large;
-    text-align: center;
-    padding-left: 338px;
-    padding-right: 337px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
 
 .topic{
     width: 100%;  
@@ -95,86 +77,37 @@ padding-top: 200px;
     font-size: 50px;
     line-height: 50%;
 }
-
 .moonplate{
-    height: 500px;
+    height: 400px;
     overflow: hidden;
+    
 }
 .moonplate img{
     width: 100%;
-    height: 85%;
+    height: 100%;
     object-fit: cover;
+    transition: 0.5s;
 }
-.moonplate  a{
+.moonplate img:hover{
+    scale: 1.2;
+    
+}
+.moonplate1  a{
      font-size: 20px;
      line-height: 25px;
      text-align: left;
      text-decoration: none;
-     color: black;
-     
+     color: black;  
 }
-.moonplate h3{
+.moonplate1 h3{
     padding-top: 10px;
     font-size: 22px;
     line-height: 26px; 
     font-weight: 700;
 }
-
-.silverset{
-    height: 500px;
-    overflow: hidden;
-}
-.silverset img{
-    width: 100%;
-    height: 85%;
-    object-fit: cover;
-}
-.silverset  a{
-    font-size: 20px;
-    line-height: 25px;
-    text-align: left;
-    text-decoration: none;
-    color: black;
-}
-.silverset h3{
-   padding-top: 10px;
-   font-size: 22px;
-   line-height: 26px; 
-   font-weight: 700;
-}
-.nordiccontainer{
-    height: 500px;
-    overflow: hidden;
-}
-.nordiccontainer img{
-    width: 100%;
-    height: 85%;
-    object-fit: cover;
-}
-.nordiccontainer  a{
-    font-size: 20px;
-    line-height: 25px;
-    text-align: left;
-    text-decoration: none;
-    color: black;
-}
-.nordiccontainer h3{
-   padding-top: 10px;
-   font-size: 22px;
-   line-height: 26px; 
-   font-weight: 700;
-}
 hr{
-    width: 100%;
-    
+    width: 100%;  
 }
-
-/* .newcollection {
-    width: 100%;
-    text-align:left; 
-    padding: 2rem; 
-    background-color: #bababa;
-} */
 .newcollection a{
     color: black;
     font-size: 17px;
@@ -195,8 +128,6 @@ hr{
     margin-bottom: 10px;
     background-color:rgb(168, 94, 94);
 }
-
-
 .newcollection2{
     width: 100%;
 }
@@ -215,7 +146,6 @@ hr{
     padding-bottom: 10px;
     padding-top: 10px;
     object-fit: cover;
-    
 }
 .newcollection4{
     width: 100%;
@@ -226,8 +156,6 @@ hr{
     object-fit: cover;
     padding-bottom: 10px;
 }
-
-
 
 .workshop{
     width: 100%;
@@ -268,7 +196,7 @@ hr{
 }
 .ouremployees{
   background-color: #bababa;
-  padding: 5rem;
+  padding: 3rem;
 }
 .employees{
     text-align: center;  
@@ -499,7 +427,7 @@ hr{
         .employees img{
             height: 150px;
             margin-top: 100px;
-            width: 80%;
+            width: 60%;
             object-fit: cover;
         }
         .story{
