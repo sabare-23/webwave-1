@@ -417,7 +417,7 @@ hr{
     }
 
 
- @media ( max-width:640px){
+ @media   ( max-width:640px){
     nav{
         flex-direction: column;
     }
@@ -501,6 +501,16 @@ hr{
             margin-top: 100px;
             width: 80%;
             object-fit: cover;
+        }
+        .story{
+            position: absolute;
+            top: -25px;
+            z-index: 10;
+            color: white;
+        }
+        .topic h1{
+           font-size: 290%;
+           line-height: 50%;
         }
         
 
