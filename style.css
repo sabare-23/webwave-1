@@ -241,7 +241,7 @@ hr{
     object-fit: cover;
 }
 .page6{
-    padding: 0rem;
+    padding: 5rem;
 }
 .page3 img{
     height: 300px;
@@ -449,6 +449,8 @@ hr{
    }
    .moonplate1  {
     text-align: center;
-   }
+   }.page6{
+    padding: 0rem;
+}
 
 }
